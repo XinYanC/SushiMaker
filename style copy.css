@@ -1,0 +1,81 @@
+h1{
+    font-size: 55px;
+}
+p{
+    font-size: 20px;
+}
+@media (max-width: 500px){
+    h1{
+        font-size: 40px;
+    }
+    p{
+        font-size: 15px;
+    }
+}
+@media (max-width: 400px){
+    h1{
+        font-size: 30px;
+    }
+    p{
+        font-size: 15px;
+    }
+}
+body{
+    background: url(https://www.lacademie.com/wp-content/uploads/2022/02/types-of-sushi.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Fira Sans', sans-serif;
+    line-height: 150%;
+}
+#opacity{
+    background-color: rgb(100, 92, 105);
+    top: 0px;
+    left: 0px;
+    min-width: 100%; 
+    display: inline-block;
+    min-height: 100% !important;
+    opacity: .55;
+    position: fixed;
+    margin-top: 0px;
+    z-index: -1;
+}
+header{
+    color: white;
+    text-align: center;
+    padding: 50px 20% 30px 20%;
+}
+#form{
+    background: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 40px;
+    padding: 30px 30px 30px 30px;
+}
+#submit{
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+    width: 100%;
+    background-color: rgb(237, 216, 216);
+    display: block;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 15px;
+}
+.width{
+    width: 100%;
+    font-family: 'Fira Sans', sans-serif;
+}
+select{
+    width: 100%;
+}
+img{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer{
+    text-align: center;
+    font-size: 12px;
+}

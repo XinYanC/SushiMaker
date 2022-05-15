@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+  
+    <title>Sushi Maker</title>
+  </head>
+  <body>
+    <div id="opacity"></div>
+    <header>
+      <h1 id="title">Sushi Maker</h1>
+      <p id="description">Welcome to YanYan Sushi Maker. Here you can make your own sushi. Let's start!</p>
+    </header>
+    <main>
+      <div id="form">
+        <form id="survey-form" action="">
+          <label for="name" id="name-label">Name:<br>
+            <input class="width" id="name" type="text" placeholder="Name" required><br>
+          </label>
+          <br><label for="email" id="email-label">Email:<br>
+            <input class="width" id="email" type="email" placeholder="Email" required><br>
+          </label>
+          <br><label for="number" id="number-label">Quantity order:<br>
+            <input class="width" id="number" type="number" placeholder="Quantity" min="1" max="100"><br>
+          </label>
+  
+          <br><label for="dropdown">Date Delivery<br>
+            <select id="dropdown">
+              <option value="one-day">One-day delivery</option>
+              <option value="two-day">Two-day delivery</option>
+              <option value="undecided">Undecided</option>
+            </select><br>
+          </label>
+  
+          <br><br><br><img src="https://www.lacademie.com/wp-content/uploads/2022/02/kinds-of-sushi.jpg" alt="Types of Sushi">
+  
+          <br><label for="type">What type of sushi would you like?<br>
+            <input type="radio" value="maki" name="type" checked>Maki sushi</label><br>
+            <input type="radio" value="nigiri" name="type">Nigiri sushi</label><br>
+            <input type="radio" value="gunkan" name="type">Gunkan sushi</label><br>
+            <input type="radio" value="temaki" name="type">Temaki sushi</label><br>
+          </label>
+  
+          <br><label for="rice">What type of rice would you like?<br>
+            <input type="radio" value="white" name="rice" checked>White rice<br>
+            <input type="radio" value="brown" name="rice">Brown rice<br>
+            <input type="radio" value="purple" name="rice">Purple rice<br>
+          </label>
+  
+          <br><label for="toppings">What toppings would you like?<br>
+            <input type="checkbox" value="salmon" name="toppings">Salmon<br>
+            <input type="checkbox" value="avo" name="toppings">Avocado<br>
+            <input type="checkbox" value="egg" name="toppings">Fried eggs<br>
+            <input type="checkbox" value="pork" name="toppings">Pulled pork<br>
+            <input type="checkbox" value="roe" name="toppings">Fish roe<br>
+            <input type="checkbox" value="shrimp" name="toppings">Shrimp<br>
+            <input type="checkbox" value="crab" name="toppings">Crab salad<br>
+            <input type="checkbox" value="asparagus" name="toppings">Asparagus<br>
+        </label>
+  
+          <br><label for="fillings">What fillings would you like?</label><br>
+            <input type="checkbox" value="salmon" name="fillings">Salmon<br>
+            <input type="checkbox" value="tuna" name="fillings">Tuna<br>
+            <input type="checkbox" value="avo" name="fillings">Avocado<br>
+            <input type="checkbox" value="cuc" name="fillings">Cucumber<br>
+            <input type="checkbox" value="roe" name="fillings">Fish roe<br>
+            <input type="checkbox" value="shrimp" name="fillings">Shrimp<br>
+            <input type="checkbox" value="crab" name="fillings">Crab salad<br>
+            <input type="checkbox" value="asparagus" name="fillings">Asparagus<br>
+            <input type="checkbox" value="mango" name="fillings">Mango<br>
+            <input type="checkbox" value="mayo" name="fillings">Mayonnaise<br>
+            <input type="checkbox" value="sriracha" name="fillings">Sriracha hot sauce<br>
+            <input type="checkbox" value="tofu" name="fillings">Tofu<br>
+            <input type="checkbox" value="tempura" name="fillings">Shrimp Tempura<br>
+            <input type="checkbox" value="scrab" name="fillings">Soft-shell crabs<br>
+        </label>
+  
+          <br><label>Additional fillings:<br>
+            <input type="text" placeholder="Additional fillings" class="width">
+          </label><br>
+  
+          <br><label>Comments, questions, and allergies:<br>
+            <textarea id="comments" class="width" rows="5" cols="5">None.</textarea>
+          </label><br>
+          
+          <br>
+          <div class="submission">
+            <button type="submit" id="submit">Place Order</button>
+          </div>
+        </form>
+        <br><br>
+        <footer>Learn more at <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" target="_blank">yanyansushimaker.com</a>.</footer>
+        <footer>&copyYanYanSushiMaker</footer>
+      </div>
+    </main>
+  </body>
+</html>
